@@ -2,6 +2,9 @@
 ## Line Follower
 ***
 >Contenido
-* Codigos de Prueba.
 * Libreria QTRSensors.
     + Ejemplos
+* Codigo seguidor de lineas
+    + Implementacion PID
+    + Ṕendiente:
+        + Aumento de velocidad en ausencia de curvas
