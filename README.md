@@ -1,13 +1,16 @@
-# Source-Fast-L
-## Line Follower
+# Source-Fast-L                       
+## Line Follower                <img src="https://github.com/MatiaCornejo/Source-Fast-L/blob/master/placa.jpg" width="200" height="264.8" /> 
+
 ***
 >Contenido
 * Libreria QTRSensors.
     + Ejemplos
 * Codigo seguidor de lineas
+    + Placa(Basada en Open Lamborghino)
     + Implementacion PID
     + Ṕendiente:
         + Aumento de velocidad en ausencia de curvas
+<<<<<<< HEAD
 ***
 >Conexiones
   + Driver
@@ -20,3 +23,6 @@
      BIN1  |9
      BIN2  |4  
      PWMB  |5
+=======
+         
+>>>>>>> 4468261759e5e373be1d40f4b2361eb109fa29f9
