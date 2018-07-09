@@ -2,8 +2,6 @@ import numpy as np
 import matplotlib
 import matplotlib.pyplot as plotter
 
-#variables globales
-
 #constantes
 RANGOX=10000
 RANGOY=1000
@@ -12,13 +10,6 @@ L=13
 #contenedor posicion y angulo
 global X,Y,O,TK,Tk
 X=Y=O=TK=Tk=0
-
-
-
-
-
-
-
 def calcular_angulo(Wr, Wl):
     #definir deltaT
     global O,TK,Tk
