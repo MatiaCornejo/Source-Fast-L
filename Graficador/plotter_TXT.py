@@ -25,7 +25,7 @@ def calcular_coordenadas(Wr, Wl):
     return
 
 def main():
-    global TK, Tk, X, Y
+
     fig ,grafico = plotter.subplots()
     grafico.set_title("Posicion Fast-L")
     grafico.set_xlabel("Coordenadas X")
@@ -34,12 +34,15 @@ def main():
     nombre_TXT=raw_input("Ingrese ruta Txt:\n")
     listaDatos=leerTxt(nombre_TXT)
     for datos in listaDatos:
+        global TK, Tk, X, Y
         TK,Wl,Wr=datos
         calcular_angulo(Wr,Wl)
         calcular_coordenadas(Wr,Wl)
-        Tk=Tk
+        Tk=TK
+        print Tk
         grafico.plot(X,Y,color='blue',marker='.',linewidth=0)
     plotter.show()
+
     return
 
 def leerTxt(nombre_TXT):
