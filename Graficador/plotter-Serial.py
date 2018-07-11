@@ -27,7 +27,7 @@ def init():
     #RANGO DE COORDENADAS
     grafico.set_xlim(-RANGOX, RANGOX)
     grafico.set_ylim(-RANGOY, RANGOY)
-    grafico.set_title("Posicion Fast-L")
+    grafico.set_title("Posicion Lamborghino")
     grafico.set_xlabel("Coordenadas X")
     grafico.set_ylabel("Coordenadas Y")
     return grf,
